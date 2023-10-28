@@ -1,12 +1,20 @@
 
-*{
-    /*margin: 0;*/
+*{   
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body { 
+    height: 100vh;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
 /*COMIENZA EL HEADER*/
 
-nav {
+
+#nav_header nav {
     position: fixed;
     width: 100%;
     top: 0;
@@ -76,7 +84,7 @@ ul li p {
     display: flex;
     flex-direction: column;
     font-family: 'Paytone One', sans-serif; 
-    color: black
+    color: black;
     
 }
 
@@ -103,6 +111,7 @@ ul li p {
     margin: 0;
     line-height: 5px;
 }
+*/
 
 /*Transicion para el logo*/
 .word-container {
@@ -142,6 +151,20 @@ ul li p {
     display: block;
 }
 
+.centered-content h1 {
+    font-size: 3em;
+    font-family: 'Quattrocento', serif;
+    color: #ffffff;
+    font-weight: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 .centered-content h2 {
     font-size: 2em;
     font-family: 'Quattrocento', serif;
@@ -156,9 +179,8 @@ ul li p {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
-
-
 /*COMIENZA EL GRID*/
+
 
 .contenedor {
 
@@ -237,11 +259,40 @@ ul li p {
     font-size: 18px; 
 }
 footer {
+    position: relative;
     background-color: #10ec52;
     color: #9B8273;
-    text-align: center;
     padding: 10px;
-    position: absolute;
     bottom: 0;
     width: 100%;
-       }
+    height: 40%;
+    display: flex;
+    overflow: hidden;
+}
+#lista{
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+
+}
+#nav_footer ul{
+    display: block;
+}
+
+#redes{
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+}
+
+#container_pq img {
+    display: flex;
+}
+#link_redes {
+    height: 30%;
+}
+#link_redes a img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 2px;
+}
