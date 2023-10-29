@@ -190,6 +190,15 @@ ul li img {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+.centered-content .hpata{
+    top: 65%;
+}
+.centered-content .haustral{
+    top: 27%;
+}
+.centered-content .hmar{
+    top: 55%;
+}
 /*COMIENZA EL GRID*/
 
 
@@ -276,9 +285,6 @@ ul li img {
     justify-content: center;
     margin: 60px 0 20px 0;
   }
-#container_pq div{
-
-}
 #margen_container {
     width: 80%;
     padding: 20px;
@@ -297,7 +303,7 @@ ul li img {
     flex-direction: row-reverse;
 }
 #container_pq div img{
-    width: 80%;
+    width: 50%;
     border-radius:20px;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
@@ -314,6 +320,7 @@ ul li img {
     font-size: 20px;
     font-weight: bold;
 }
+ /*FIN INFO PARQUES*/
 
 /* FOOTER */
 
@@ -334,8 +341,6 @@ footer {
     display: flex;
     flex-direction: column;
     grid-area: lista;
-
-
 }
 #nav_footer ul{
     display: block;
@@ -347,10 +352,6 @@ footer {
     padding: 5px;
     grid-area: redes;
 }
-
-#container_pq img {
-    display: flex;
-}
 #link_redes {
     height: 30%;
 }
@@ -359,7 +360,6 @@ footer {
     max-height: 90%;
     margin: 2px;
 }
-
 .footer-container{
     width: 100%;
     margin: 0 auto;
@@ -375,6 +375,15 @@ footer {
 .footer-parque{
     grid-area: parque;
 }
+.footer-parque h5{
+    color: #ffffff;
+}
+#redes p{
+    color: #ffffff;
+}
+#redes a {
+    color: #ffffff;
+}
 
 .contain {
     display: flex;
@@ -386,11 +395,11 @@ footer ul li {
 }
 
 footer ul li a {
-    /* color: #000; */
+    color: #ffffff;
 }
 
 footer ul li a:hover{
-    /* color: rgb(128, 128, 128); */
+    color: rgb(128, 128, 128);
 }
 
 footer p{
