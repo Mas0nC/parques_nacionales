@@ -504,10 +504,18 @@ input[type="reset"]:hover {
 
 /*Comienza CSS para mapa*/
 
-.map{
+.map-container {
+
+    background-color: #CCCCCC;
     width: 100%;
-    margin: 5% auto;
-    background-color: #f2f2f2;
+    height: 100%;
+}
+
+.map{
+    width: 80%;
+    margin: 2% auto;
+    background-color: #CCCCCC;
+    height: 60%
 }
 
 /*-----------------------------------------*/
