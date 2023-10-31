@@ -203,9 +203,10 @@ ul li img {
     position: absolute;
     bottom: 5%;
     left: 50%;
-    filter: invert(90%);
+    filter: grayscale(100%);
     transform: translate(-50%, -50%);
-    -webkit-filter: invert(90%);
+    -webkit-filter: grayscale(100%);
+    font-size: 2em;
 }
 
 /* Animación de agitación vertical */
