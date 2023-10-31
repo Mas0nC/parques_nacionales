@@ -658,12 +658,13 @@ input[type="reset"]:hover {
         margin: 10px 0;
         }
     .centered-content h2 {
-
-        display: none;
+        font-size: 1.6em;
+        line-height: 0.2;
+        left: 20%;
     }
 
     .centered-content h1 {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 
     .contenedor {
@@ -678,7 +679,7 @@ input[type="reset"]:hover {
     }
 
     .contenedor_titulo_carousel h4 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .contenedor_titulo_carousel p {
